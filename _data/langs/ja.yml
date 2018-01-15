@@ -2,8 +2,8 @@
 lang_name: "日本語"
 head:
   meta:
-    description: "Verge(XVG)とは、プライバシー重視の安全な匿名性暗号通貨。"
-  title: "Verge(ヴァージ)とは、プライバシー重視の安全な匿名性暗号通貨。"
+    description: "Verge(XVG)は、プライバシー重視の安全な匿名性暗号通貨です。"
+  title: "Verge(XVG)は、プライバシー重視の安全な匿名性暗号通貨です。"
 nav:
   about:
     title: "Vergeについて"
@@ -15,18 +15,37 @@ nav:
     title: "ロードマップ"
   community:
     title: "コミュニティ"
-tagline: "Vergeとは、プライバシー重視の安全な匿名性暗号通貨。"
+tagline: "Vergeはプライバシー重視の安全な匿名性暗号通貨です。"
 download: "ダウンロード"
 view: "ビュー"
 view_all_wallets: "すべてのウォレットを見る"
+mission:
+  header: "Vergeのミッション"
+  paratraph:"私たちのミッションは世界中の人々が安心してブロックチェーンの取引を行えるようにすることです。Vergeで素早く、効率的にかつプライバシーをしっかりと守ってダイレクトな取引ができるようになります。Vergeは法人・個人それぞれの用途に応じた請求・支払いのオプションを用意しています。また、企業と個人間に発生する、大量の少額取引を可能とするインテグレーションおよびツールを提供しています。"
 info:
   about:
-    header: "Vergeについて"
-    paragraph: "Vergeとはプライバシー重視の人向けの分散化された暗号通貨です。プライバシーのために複数匿名ネットワーク、TORやi2Pなど採用しています。そして安全性を支えるとマイナーにコインの公平な分配を確保するために、５つのアルゴリズムを採用しています。"
+    header: "Vergeとは？"
+    paragraph: "Vergeは日常的に使用できることを目指した仮想通貨です。ビットコインをベースに、個人のプライバシーをしっかりと守って、個人および企業間で行われる分散化された取引をよりはやく、効率的に行う方法を提供することが、第一の目標です。"
+    cards:
+      privacy:
+        header:"完全匿名性とプライバシー保護重視"
+        paragraph:"VergeはTorやI2Pなどの匿名通信システムを使用しています。ユーザーのIPアドレスは難読化されるため、トランザクションは追跡不可能です。"
+      community:
+        header:"活発なコミュニティ"
+        paragraph:"Vergeはあらかじめ発掘されたコインやICOによって設立された企業ではありません。開発とマーケティングは千人以上のコミュニティメンバーによって支えられています。"
+      speed:
+        header:"超高速取引"
+        paragraph:"トランザクションスピードは他のコインにくらべて非常に高速です。SPV（Simple Payment Verfication)によって平均取引確認時間は約5秒短縮されます。"
+      development:
+        header:"Active development team with many contributors"
+        paragraph:"開発チームは活発で、いつもコミュニティのそばにあります。サポートが必要な場合やVergeに関する新しいアイデアを思いついたら、すぐに開発チームに伝えてみましょう。"
+      opensource:
+        header:"非中央集権型でオープンソース"
+        paragraph:"Vergeはオープンソースプラットフォーム上の非中央集権型仮想通貨です。コインに対して中央集権型のコントロールが働くことはありません。"
   resources:
     header: "リソース"
     black_paper: "ブラックペーパー"
-    github: "ソースコード（Githubで）"
+    github: "ソースコード（Github）"
     mining_pools: "マイニングプール"
     mining_resources: "マイニングのリソース"
     blockchain_explorer_prohashing: "ブロックエクスプローラ（ProHashing)"
@@ -49,7 +68,7 @@ developers:
     github_repos: ""
 exchanges:
   header: "Vergeを入手する"
-  paragraph: "以下の取引所でVergeが入手できる。"
+  paragraph: "Vergeを購入できる取引所"
   bittrex: "Bittrex"
   bitsquare: "BitSquare.io"
   ccex: "C-Cex"
@@ -63,7 +82,7 @@ wallets:
   header: "ウォレット"
   info:
     header: "Info:"
-    message: "Electrumウォレットをインストールしない場合には、 <a href='http://vergecurrency.de/' target='_blank'>ここで</a>Vergeブロックチェーンをダウンロードすればインストール時間が短縮できる。"
+    message: "Electrumウォレットをインストールしない場合には、 <a href='http://vergecurrency.de/' target='_blank'>ここ</a>からVergeブロックチェーンをダウンロードすればインストール時間を短縮できます。"
   tabs:
     desktop: "デスクトップ"
     mobile: "モバイル"
@@ -86,72 +105,104 @@ wallets:
   paper: "Verge　ペーパーウォレット"
   daemon_docker: "Verge　Daemon Dockerのイメージ"
   coinomi: "Coinomi マルチ通貨 Androidウォレット"
+vendors:
+  header:"Vergeを採用した企業"
+  paragraph: "以下の企業で製品やサービスの購入にVergeが使えるようになりました。"
+  nexwave: "Nexwave"
+  pexpeppers: "PexPeppers"
+  incredebites: "Incredebites"
+  trebaltek: "Trebaltek"
+  renosportsbar: "Reno Sports Bar"
+  alwayshodl: "AlwaysHodl"
+  whiskermen: "WhiskerMen"
+  quantvm: "QuanTVm"
+  vfx: "VFX Learning"
+  cryptovfx: "Crypto VFX"
+  menke: "Menke IT - Service"
+  suzuri: "仮想通貨Verge Japan 公認SHOP"
+  haveaheartkc: "Have A Heart: Animal Rescue"
+  illroticbeats: "Illrotic Beats"
+  fbs: "Falmouth Boat Security"
+  effortless: "Effortless.IT"
+  pmc: "Phuket Media Company"
+  meccamino: "Meccamino"
+  apetest: "APE Advisor Prep"
+  morningwish: "Morning Wish"
+  ethminers: "Ethereum Miners"
+  heightcare: "HeightCare"
+  ovpn: "oVPN"
+  snel: "Snel.com"
+  anutra: "Anutra Grain"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
 roadmap:
   header: "ロードマップ"
   blackpaper:
     header: "「ブラック」ペーパー"
-    date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 4 日"
+    date: "2017/6/4 <font color='#08b4e0'>リリース</font> "
   electrum_i2P_server_client:
     header: "Electrum i2P サーバ / クライアント"
-    date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 4 日"
+    date: "2017/6/4 <font color='#08b4e0'>リリース</font>"
   electrum_tor_server_client:
     header: "Electrum TOR サーバ / クライアント"
-    date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 5 日"
+    date: "2017/6/5 <font color='#08b4e0'>リリース</font>"
   electrum_binaries:
     header: "Electrumのバイナリ"
     paragraph: "使いやすいライトウオレットのバイナリクライアント - "
-    date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 7 日"
+    date: "2017/6/7 <font color='#08b4e0'>リリース</font>"
   marketing_campaign:
     header: "マーケティングキャンペーン"
     paragraph: "Coinomiと1年間のマーケティングキャンペーンを開始しました"
-    date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 7 日"
+    date: "2017/6/7 <font color='#08b4e0'>リリース</font>"
   redesign_website:
     header: "ウェブサイトリデザイン"
-    date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 12 日"
+    date: "2017/6/12 <font color='#08b4e0'>リリース</font>"
   radio:
-    header: "Vergeラジオを発展する"
-    paragraph: "「 RadioCrypto 」に化して、コアウォレットに含める"
-    date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 26 日"
+    header: "Vergeラジオを改善"
+    paragraph: "「RadioCrypto」として、コアウォレットに含めました"
+    date: "2017/6/26 <font color='#08b4e0'>リリース</font>"
   tor_android_wallet:
     header: "TOR Android ウォレット"
     paragraph: "TOR　Android　ウォレット　(匿名取引のみ) （ほぼ完了）。"
-    date: "7 月 2017 年"
+    date: "2017/7"
   i2P_android_wallet:
     header: "i2P Android ウォレット"
     paragraph: "i2P Android ウォレット (匿名取引のみ) （ほぼ完了）。"
-    date: "7 月 2017 年"
+    date: "2017/7"
   core_wallet_release:
-    header: "新しいコア Wallet リリース"
-    paragraph: "コインコントロール、 RingCT などの新しい機能を追加し、ライブラリのアップデート（openssl 、boost、 など）。"
-    date: "7 月 2017 年"
+    header: "新しいコアウォレットリリース"
+    paragraph: "コインコントロール、RingCTなどの新しい機能を追加し、ライブラリ（openssl、boostなど）をアップデートしました"
+    date: "2017/7"
   rsk_smart_contracts:
-    header: "RSK スマート契約"
-    paragraph: "今RSKスマート契約は、Bitcoinのtestnetにあり、リリーズ時がまだ決定しません。"
-    date: "7 月 2017 年"
+    header: "RSKスマート契約"
+    paragraph: "今RSKスマート契約は、Bitcoinのtestnetにあり、リリース時期は未定です"
+    date: "2017/7"
   wallet_ui:
-    header: "ウォレット UI オーバーホール"
-    date: "7 月 2017 年"
+    header: "ウォレットUIの全面改良"
+    date: "2017/7"
   merchandise_store:
-    header: "Vergeのオンラインストア"
-    paragraph: "Verge商品ショップはXVGとBTC購入することができる（Tシャツや他のグッズなど）。"
-    date: "7 月 2017 年"
+    header: "Vergeオンラインストア"
+    paragraph: "Vergeグッズ（Tシャツや他のグッズなど）はXVGとBTC購入できます"
+    date: "2017/7"
   transfer_discord_service:
     header: "DiscordでVerge取引サービス"
-    date: "8 月 2017 年"
+    date: "2017/8"
   transfer_telegram_service:
     header: "TelegramでVerge取引サービス"
-    date: "8 月 2017 年"
+    date: "2017/8"
   official_mining_pool:
-    header: "公式のVergeマルチーアルゴリズムマイニングプール"
-    paragraph: "未来のVerge開発するために、2%　料金があるつもり。"
-    date: "8 月 2017 年"
+    header: "公式のVergeマイニングプールマルチアルゴリズム対応"
+    paragraph: "将来のVerge開発に役立てるために2%をFeeとします。"
+    date: "2017/8"
   upgrade_electrum_client:
-    header: "Electrumクライアントのコードアップデート"
-    date: "8 月 2017 年"
+    header: "Electrumクライアントのアップデート"
+    date: "2017/8"
 developers:
     about:
       header: "開発者"
-      paragraph: "ソフトの開発は難しい。もっと簡単になるため、下記にVerge開発を支えるツールを記録します"
+      paragraph: "コーディングは簡単ではありません。もっと簡単にVergeに貢献できるように、Verge開発を支えるツールをリストアップしました。"
     resources:
       header: "開発ツール"
       github_gui: "GitHub Desktop"
@@ -164,7 +215,7 @@ developers:
 contributors:
   about:
     header: "コントリビュータ"
-    paragraph: "Vergeはオープンソースコミュニティです。いろいろなコントリビュータの手伝いともに、だんだん成長しています。Vergeプロジェクトを手伝いしたい場合には、Vergeの <a href='https://github.com/vergecurrency' target='_blank'>Githubを見る</a>!"
+    paragraph: "Vergeはオープンソースコミュニティです。いろいろなコントリビュータのサポートで、成長します。Vergeプロジェクトに貢献したくなったら、Vergeの <a href='https://github.com/vergecurrency' target='_blank'>Github</a>へ!"
   wallets:
     verge:
       header: "Verge Wallet Address"
@@ -174,8 +225,8 @@ contributors:
       address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
 donate:
   about:
-    header: "Vergeの開発　チップ"
-    paragraph: "Vergeは事前採掘のコインではない、チップが開発を支えます。どんな応援でも我々がとても感謝しています。"
+    header: "Vergeへ寄付する"
+    paragraph: "Vergeはプレマインの仮想通貨ではありません。すべての開発はあなたの寄付に支えられています。"
   wallets:
     verge:
       header: "Verge Wallet Address"
